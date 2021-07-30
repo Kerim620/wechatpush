@@ -1,4 +1,4 @@
-# Wx_Push
+# wechatpush
 
 本项目为向微信推送消息的解决方案。
 
@@ -24,7 +24,7 @@
 
 ![image-20210730092913129](https://gitee.com/zzzjoy/My_Pictures/raw/master/image-20210730092913129.png)
 
-在「我的企业」中查看企业ID
+在「我的企业」中查看企业ID。
 
 ![image-20210730093512316](https://gitee.com/zzzjoy/My_Pictures/raw/master/image-20210730093512316.png)
 
@@ -32,7 +32,7 @@
 
 #### 一、创建云函数
 
-点[此处](https://console.cloud.tencent.com/scf/list-create?rid=4&ns=default&createType=empty&keyword=api)创建腾讯云函数，函数类型为事件函数，运行环境选Python3，本地上传[zip包文件](https://github.com/zzzjoy-620/wechatpush/releases/download/v1.0/index.zip)触发器暂不创建。
+点[此处](https://console.cloud.tencent.com/scf/list-create?rid=4&ns=default&createType=empty&keyword=api)创建腾讯云函数，函数类型为事件函数，运行环境选Python3，函数代码选用本地上传[zip包文件](https://github.com/zzzjoy-620/wechatpush/releases/download/v1.0/index.zip)，也可选在线编辑，复制项目的index.py代码。触发器暂不创建。
 
 ![image-20210730103135112](https://gitee.com/zzzjoy/My_Pictures/raw/master/image-20210730103135112.png)
 
